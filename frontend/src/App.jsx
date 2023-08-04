@@ -3,7 +3,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import Editor from '@monaco-editor/react';
 
-const baseServerUrl = 'http://localhost:8998/code'
+const baseServerUrl = 'https://ccdqc.onrender.com/code'
 
 function App() {
   const [lang, setLang] = useState('javascript');
